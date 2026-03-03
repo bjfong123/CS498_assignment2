@@ -1,0 +1,15 @@
+For the latency.py, in order to measure latency, I used the request and time library.
+
+to send GET and POST requests to Node.js endpoints. In order to calculate latency, 
+
+I measured the time difference using time.time() before and after each request, and 
+
+then averaging over 10 times. Code specifics are found in the latency.py file.
+
+To find consistency, I looped 100 times, generating a UUID for each user, registering it 
+
+in the US, and then querying into the EU list to check if the UIUD is there or not. For code 
+
+specifics, check the consistency. py file.
+
+I have followed the instructions for the other parts of the code. 
