@@ -2,7 +2,7 @@ import requests
 import time
 
 US_URL = "http://136.115.61.59:8080"
-EU_URL = "http://35.195.228.232:8080"
+EU_URL = "http://34.140.102.11:8080"
 
 def measure_latency(url, endpoint, method="GET",data=None):
     latencies = []
